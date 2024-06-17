@@ -1,0 +1,97 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2em;
+    height: 70px;
+    background-color: rgb(0, 153, 255);
+    font-family:  "Raleway", sans-serif;
+    font-weight: 700;
+    color: rgb(0, 238, 255);
+    text-shadow: 3px 3px 5px black;
+    padding:10px 10px 0 ;
+  }
+  .clock{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%; 
+    background-image: linear-gradient(to bottom, cyan, blue);
+    transform: translate(50%,10%);
+  }
+  .dial{
+    margin: 105px 42px 0  ;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(20px);
+    border-radius: 4px;
+    width: 360px;
+    span{
+    font-size: 5.5em;
+    color: rgb(255, 255, 255);
+    font-family: "Oxanium",sans-serif;
+    }
+    .mili{
+      font-size: 3em;
+      margin-top:35px;
+    }
+  }
+  .buttons{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    button{
+      border: 0;
+      border-radius: 70%;
+      width: 80px;
+      height: 80px;
+      margin-inline: 5px;
+      font-size: 1.25em;
+      box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+      color: rgb(19, 19, 19);
+      font-family: "Oxanium",sans-serif;
+    }
+    #start{
+      background-color: rgb(75, 255, 75);
+    }
+    #lap{
+      background-color: rgb(44, 206, 255);
+    }
+    #stop{
+      background-color: rgba(255, 0, 0, 0.925);
+    }
+    #reset{
+      background-color: yellow;
+    }
+  }
+  .laps{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    font-family: "Oxanium",sans-serif;
+    font-size: 2.5em;
+    color: rgb(255, 235, 51);
+    div{
+      margin-bottom: 20%;
+      #r6{
+        margin: 0;
+      }
+    }
+  }
+  .col1{
+    padding-right: 20%;
+    display: inline-block;
+  }
+  .col2{
+    border-left: 1px rgb(255, 255, 255) solid;
+    padding-left: 10%;
+  }
+
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+  }
